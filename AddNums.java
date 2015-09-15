@@ -35,7 +35,7 @@ public class AddNums {
 		System.out.println("\n");
 		
 		System.out.println("This is a test for the divThem method");
-		System.out.println(" 6 / 7 = " + both);
+		System.out.println(" (6 + 7) / 10 = " + both);
 		
 		
 	}
