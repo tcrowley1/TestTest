@@ -10,10 +10,12 @@ public class AddNums {
 		// TODO Auto-generated method stub
 		int firstNumber = 6;
 		int secondNumber = 7;
+		int thirdNumber = 10;
 		
 		int number = addThem(firstNumber,secondNumber);
 		int mult = multThem(firstNumber,secondNumber);
 		double div = divThem(firstNumber,secondNumber);
+		double both = doStuff(firstNumber,secondNumber);
 		
 		
 		System.out.println("This is a test for the addThem method");
@@ -28,6 +30,12 @@ public class AddNums {
 		
 		System.out.println("This is a test for the divThem method");
 		System.out.println(" 6 / 7 = " + div);
+		
+		
+		System.out.println("\n");
+		
+		System.out.println("This is a test for the divThem method");
+		System.out.println(" 6 / 7 = " + both);
 		
 		
 	}
@@ -65,6 +73,18 @@ public static double divThem (int firstNumber, int secondNumber)
 	double div = x3/y3;
 	
 	return div;
+}
+
+public static double doStuff (int firstNumber, int secondNumber)
+{
+	double x4 = firstNumber;
+	double y4 = secondNumber;
+	double z = thirdNumber;
+	
+	double thing = (x4 + y4 )/z;
+	
+	return thing;
+	
 }
 
 }
