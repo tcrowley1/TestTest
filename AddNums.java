@@ -5,12 +5,16 @@
 */
 
 public class AddNums {
+	
+	import java.util.*;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int firstNumber = 6;
 		int secondNumber = 7;
 		int thirdNumber = 10;
+		
+		Scanner keyboard = new Scanner (System.in); 
 		
 		int number = addThem(firstNumber,secondNumber);
 		int mult = multThem(firstNumber,secondNumber);
@@ -36,6 +40,35 @@ public class AddNums {
 		
 		System.out.println("This is a test for the divThem method");
 		System.out.println(" (6 + 7) / 10 = " + both);
+		
+		System.out.println("\n");
+		
+		System.out.println(" I will now as a few quick questions!");
+		
+		System.out.println("\n");
+		
+		System.out.println("What is you favourite number?");
+		
+			int favNum = keyboard.nextInt()'
+			
+		System.out.println("Your favourite number is " + favNum );
+		
+		System.out.println("\n");
+		
+		System.out.println("What is your least favourite number?");
+		
+			int leastFav = keyboard.nextInt();
+		
+		System.out.println("Your least favourite number is " + leastFav);
+		
+		System.out.println("\n");
+		
+		System.out.println("Lastly, what is your name?");
+		
+			String userName = keyboard.next();
+			
+		System.out.println("Thank you for playing " + userName);
+		
 		
 		
 	}
