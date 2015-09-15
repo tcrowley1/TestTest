@@ -13,6 +13,7 @@ public class AddNums {
 		
 		int number = addThem(firstNumber,secondNumber);
 		int mult = multThem(firstNumber,secondNumber);
+		double div = divThem(firstNumber,secondNumber);
 		
 		
 		System.out.println("This is a test for the addThem method");
@@ -26,7 +27,7 @@ public class AddNums {
 		System.out.println("\n");
 		
 		System.out.println("This is a test for the divThem method");
-		System.out.println(" 6 / 7 = " + divThem);
+		System.out.println(" 6 / 7 = " + div);
 		
 		
 	}
