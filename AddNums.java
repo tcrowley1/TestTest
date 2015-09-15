@@ -3,10 +3,11 @@
 /*@Author Terrence Crowley
 		  09-15-2015
 */
+import java.util.*;
 
 public class AddNums {
 	
-	import java.util.*;
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -49,7 +50,7 @@ public class AddNums {
 		
 		System.out.println("What is you favourite number?");
 		
-			int favNum = keyboard.nextInt()'
+			int favNum = keyboard.nextInt();
 			
 		System.out.println("Your favourite number is " + favNum );
 		
