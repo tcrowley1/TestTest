@@ -15,7 +15,7 @@ public class AddNums {
 		int number = addThem(firstNumber,secondNumber);
 		int mult = multThem(firstNumber,secondNumber);
 		double div = divThem(firstNumber,secondNumber);
-		double both = doStuff(firstNumber,secondNumber);
+		double both = doStuff(firstNumber,secondNumber,thirdNumber);
 		
 		
 		System.out.println("This is a test for the addThem method");
@@ -75,7 +75,7 @@ public static double divThem (int firstNumber, int secondNumber)
 	return div;
 }
 
-public static double doStuff (int firstNumber, int secondNumber)
+public static double doStuff (int firstNumber, int secondNumber, int thirdNumber)
 {
 	double x4 = firstNumber;
 	double y4 = secondNumber;
