@@ -1,3 +1,8 @@
+// Basic Test Class used for GitHub -- Will eventually lead to fully functioning programs
+
+/*@Author Terrence Crowley
+		  09-15-2015
+*/
 
 public class AddNums {
 
@@ -17,6 +22,11 @@ public class AddNums {
 		
 		System.out.println("This is a test for the multThem method");
 		System.out.println (" 6 * 7 = " + mult);
+		
+		System.out.println("\n");
+		
+		System.out.println("This is a test for the divThem method");
+		System.out.println(" 6 / 7 = " + divThem);
 		
 		
 	}
@@ -45,4 +55,15 @@ public static int multThem (int firstNumber,int secondNumber)
 	return total1;
 	
 }
+
+public static double divThem (int firstNumber, int secondNumber)
+{
+	double x3 = firstNumber;
+	double y3 = secondNumber;
+	
+	double div = x3/y3;
+	
+	return div;
+}
+
 }
